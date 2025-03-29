@@ -36,6 +36,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
+        readyToJump = true; //player can jump at the start
     }
 
     private void Update()
